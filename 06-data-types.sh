@@ -1,14 +1,12 @@
 #!/bin/bash
 
-NUMBER1=33
-NUMBER2=44
+NUMBER1=$1
+NUMBER2=$2
 
 SUM=$((NUMBER1 + NUMBER2))
 
-echo "Total:: $SUM"
+echo "Total :: $SUM
 
-echo "How many args passed:: $#"
+echo "total args passed :: $@"
 
-echo "All args passed:: $@"
-
-echo "Script name:: $0"
+echo "script name : $0
