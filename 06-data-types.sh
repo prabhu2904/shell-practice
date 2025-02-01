@@ -5,8 +5,8 @@ NUMBER2=$2
 
 SUM=$((NUMBER1 + NUMBER2))
 
-echo "Total :: $SUM
+echo "Total :: $SUM"
 
 echo "total args passed :: $@"
 
-echo "script name : $0
+echo "script name : $0"
